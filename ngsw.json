@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1610559566346,
+  "timestamp": 1610560583156,
   "index": "https://jmartorellma.github.io/la-liga-pwa/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://jmartorellma.github.io/la-liga-pwa/favicon.ico",
         "https://jmartorellma.github.io/la-liga-pwa/index.html",
-        "https://jmartorellma.github.io/la-liga-pwa/main.c8e71a1b79cc97824c5a.js",
+        "https://jmartorellma.github.io/la-liga-pwa/main.d65991af6697e6156a98.js",
         "https://jmartorellma.github.io/la-liga-pwa/manifest.webmanifest",
         "https://jmartorellma.github.io/la-liga-pwa/polyfills.35a5ca1855eb057f016a.js",
         "https://jmartorellma.github.io/la-liga-pwa/runtime.acf0dec4155e77772545.js",
@@ -71,8 +71,8 @@
     "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-72x72.png": "6f5fe6414a983f350b257b6ee33dfc70a1bf7ec0",
     "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-96x96.png": "9d724053014c0ff23b4d60212ba2f3c83bf4bd54",
     "https://jmartorellma.github.io/la-liga-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://jmartorellma.github.io/la-liga-pwa/index.html": "75b342ed795bc40a400655e6873b4781f0974277",
-    "https://jmartorellma.github.io/la-liga-pwa/main.c8e71a1b79cc97824c5a.js": "d382cc209b169bf250084308ea62d8cba8ee140d",
+    "https://jmartorellma.github.io/la-liga-pwa/index.html": "6d3e87ab4993e6be7b1ff59bfe05eddca34e2b06",
+    "https://jmartorellma.github.io/la-liga-pwa/main.d65991af6697e6156a98.js": "d43c7101cf70b3c3efe53a414a8afc6c64d75171",
     "https://jmartorellma.github.io/la-liga-pwa/manifest.webmanifest": "4cf54d54f6fe4a0736380c580bb94cd9bd4b3215",
     "https://jmartorellma.github.io/la-liga-pwa/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "https://jmartorellma.github.io/la-liga-pwa/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
