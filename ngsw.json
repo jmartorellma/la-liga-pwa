@@ -1,0 +1,99 @@
+{
+  "configVersion": 1,
+  "timestamp": 1610559566346,
+  "index": "https://jmartorellma.github.io/la-liga-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://jmartorellma.github.io/la-liga-pwa/favicon.ico",
+        "https://jmartorellma.github.io/la-liga-pwa/index.html",
+        "https://jmartorellma.github.io/la-liga-pwa/main.c8e71a1b79cc97824c5a.js",
+        "https://jmartorellma.github.io/la-liga-pwa/manifest.webmanifest",
+        "https://jmartorellma.github.io/la-liga-pwa/polyfills.35a5ca1855eb057f016a.js",
+        "https://jmartorellma.github.io/la-liga-pwa/runtime.acf0dec4155e77772545.js",
+        "https://jmartorellma.github.io/la-liga-pwa/styles.53f3699f17aaccbfbb23.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.0-beta1\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://jmartorellma.github.io/la-liga-pwa/assets/css/animate.css",
+        "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-128x128.png",
+        "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-144x144.png",
+        "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-152x152.png",
+        "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-192x192.png",
+        "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-384x384.png",
+        "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-512x512.png",
+        "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-72x72.png",
+        "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "teams-api",
+      "patterns": [
+        "https:\\/\\/api\\.football-data\\.org\\/v2\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 21,
+      "maxAge": 86400000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 2
+    }
+  ],
+  "hashTable": {
+    "https://jmartorellma.github.io/la-liga-pwa/assets/css/animate.css": "3dc70f1a3c29089a27418c9ce431cb439f41a5ad",
+    "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-128x128.png": "63875c408bd7f9243b90fdd4f28ef12c98b6d1dc",
+    "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-144x144.png": "15f1a8a01720aa2b1ec4b003e8412d9efb813fdd",
+    "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-152x152.png": "399f8dbababfd49e51415c9a2d6e74c3bcfb2133",
+    "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-192x192.png": "94269eef57475a4b75612eb2b51c660f4f962861",
+    "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-384x384.png": "4879a9dc87125efda3ea450a2dceedfeed7ba322",
+    "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-512x512.png": "126d47046fa0e972f9aabf4f1222b7a5eff3921a",
+    "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-72x72.png": "6f5fe6414a983f350b257b6ee33dfc70a1bf7ec0",
+    "https://jmartorellma.github.io/la-liga-pwa/assets/icons/icon-96x96.png": "9d724053014c0ff23b4d60212ba2f3c83bf4bd54",
+    "https://jmartorellma.github.io/la-liga-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://jmartorellma.github.io/la-liga-pwa/index.html": "75b342ed795bc40a400655e6873b4781f0974277",
+    "https://jmartorellma.github.io/la-liga-pwa/main.c8e71a1b79cc97824c5a.js": "d382cc209b169bf250084308ea62d8cba8ee140d",
+    "https://jmartorellma.github.io/la-liga-pwa/manifest.webmanifest": "4cf54d54f6fe4a0736380c580bb94cd9bd4b3215",
+    "https://jmartorellma.github.io/la-liga-pwa/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
+    "https://jmartorellma.github.io/la-liga-pwa/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://jmartorellma.github.io/la-liga-pwa/styles.53f3699f17aaccbfbb23.css": "d9d4dcbe4615c738c29651d234de15fdf9234484"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
