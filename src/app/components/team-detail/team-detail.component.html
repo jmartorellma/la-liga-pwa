@@ -1,0 +1,20 @@
+<div class="container mt-5">
+    <div *ngIf="team" class="row animate__animated animate__bounce animate__fadeIn">
+        <div class="row col-md-10">
+            <div class="col-md-5">
+                <img style="width: 80%; height: 80%;" class="rounded" src="{{team.crestUrl}}" alt="shield">
+            </div>
+            <div class="col-md-7">
+                <p><strong>Name:&nbsp;</strong>{{team.name}}</p>
+                <p><strong>Stadium:&nbsp;</strong>{{team.venue}}</p>
+                <p><strong>Address:&nbsp;</strong>{{team.address}}</p>
+                <p><strong>Colors:&nbsp;</strong>{{team.clubColors}}</p>
+                <p><strong>Foundation:&nbsp;</strong>{{team.founded}}</p>
+                <p><strong>Web site:&nbsp;</strong><a href="{{team.website}}" target="_blank">{{team.website}}</a></p>
+            </div>            
+        </div>
+        <div class="col-md-2">
+            <a class="btn btn-danger" routerLink="/">Back</a>
+        </div>
+    </div>
+</div>

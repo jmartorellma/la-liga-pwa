@@ -1,0 +1,14 @@
+<div class="container main-container">
+    <div class="head-container">
+        <img width="72" height="72" src="../../assets/icons/icon-384x384.png" alt="logo La Liga">
+        <h1>La Liga Santander 2020 - 2021</h1>
+    </div>    
+    <ul class="list-group">
+        <li>
+            <a *ngFor="let team of teams" [routerLink]="['team', team.id]" class="row list-group-item list-group-item-action animate__animated animate__bounce animate__fadeIn">
+                <img width="40" height="40" src="{{team.crestUrl}}" alt="shield">
+                <span><strong>{{team.tla}} - {{team.name}}</strong></span> 
+            </a>
+        </li>        
+    </ul>
+</div>

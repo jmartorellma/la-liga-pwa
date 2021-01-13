@@ -1,0 +1,36 @@
+h1 {
+    margin: 30px 15px;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 20px;;
+}
+
+a {
+    margin: 0;
+}
+
+a img {
+    width: 40px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.head-container img {
+    padding: 0;
+}
